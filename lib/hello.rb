@@ -1,5 +1,5 @@
 def hello_t(array)
-  if array {
+  if block_given? {
     array.each { |name|
       if name.start_with?("T")
         puts "Hi, #{name}"
@@ -14,4 +14,4 @@ end
 
 # call your method here!
 
-hello_t(array)
+hello_t()
