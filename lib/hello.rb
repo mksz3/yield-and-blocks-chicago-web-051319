@@ -4,7 +4,7 @@ def hello_t(array)
       puts "Hi, #{name}"
     end
   }
-  puts ""
+  puts "Hey! No block was given!"
 end
 
 # call your method here!
